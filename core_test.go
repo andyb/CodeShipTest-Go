@@ -8,5 +8,5 @@ import (
 func TestFunct(t *testing.T) {
 	res := TestFunc()
 	log.Println(res)
-	t.Errorf("bang")
+	//t.Errorf("bang")
 }
